@@ -1,0 +1,22 @@
+.image-row {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 13.6rem;
+  height: auto;
+  margin-bottom: 0.8rem;
+}
+
+.image-row__image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  transition: opacity 150ms;
+  cursor: pointer;
+}
+
+.image-row__image:hover {
+  opacity: 0.6;
+}

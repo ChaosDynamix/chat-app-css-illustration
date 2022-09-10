@@ -1,0 +1,31 @@
+@import "styles/reset.css";
+
+@import "styles/page.css";
+@import "styles/header.css";
+@import "styles/phone.css";
+@import "styles/app.css";
+@import "styles/avatar.css";
+@import "styles/info.css";
+@import "styles/button.css";
+@import "styles/form.css";
+@import "styles/bubble.css";
+@import "styles/images.css";
+
+:root {
+  --color-pale-violet: hsl(276, 100%, 81%);
+  --color-moderate-violet: hsl(276, 55%, 52%);
+  --color-desaturated-dark-violet: hsl(271, 15%, 43%);
+  --color-grayish-blue: hsl(206, 6%, 79%);
+  --color-very-dark-desaturated-violet: hsl(271, 36%, 24%);
+  --color-dark-grayish-violet: hsl(270, 7%, 64%);
+  --color-light-magenta: hsl(293, 100%, 63%);
+  --color-light-violet: hsl(264, 100%, 61%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grayish-violet: hsl(270, 20%, 96%);
+  --color-very-light-magenta: hsl(289, 100%, 72%);
+
+  --color-bubble-from: hsl(272, 41%, 93%);
+  --color-chat: hsl(264, 26%, 96%);
+  --color-right-shape: hsl(290, 37%, 97%);
+  --color-bg: hsl(0, 0%, 98%);
+}

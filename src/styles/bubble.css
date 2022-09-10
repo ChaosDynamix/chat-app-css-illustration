@@ -1,0 +1,134 @@
+.bubble {
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.bubble--left {
+  align-self: flex-start;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 0.4rem;
+}
+
+.bubble--right {
+  align-self: flex-end;
+  border-bottom-right-radius: 0.4rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.bubble--small {
+  max-width: 12.8rem;
+}
+
+.bubble--large {
+  width: 16rem;
+}
+
+.bubble--violet {
+  background-color: var(--color-bubble-from);
+}
+
+.bubble--white {
+  background-color: var(--color-white);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+}
+
+.bubble--gradient {
+  background: linear-gradient(to right, var(--color-light-magenta), var(--color-light-violet));
+}
+
+.bubble--flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bubble--last {
+  margin-bottom: 1.6rem;
+}
+
+.bubble__message {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+}
+
+.bubble__message--violet {
+  color: var(--color-moderate-violet);
+}
+
+.bubble__message--dark-violet {
+  color: var(--color-very-dark-desaturated-violet);
+}
+
+.bubble__option {
+  position: relative;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.8rem;
+}
+
+.bubble__option-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.bubble__option-label {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  border: 0.1rem solid var(--color-pale-violet);
+  cursor: pointer;
+}
+
+.bubble__option-input:focus ~
+.bubble__option-label {
+  outline: none;
+  border: 0.1rem solid var(--color-white);
+}
+
+.bubble__option-dot {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: auto;
+  transform: scale(0);
+  border-radius: 9999px;
+  background-color: var(--color-white);
+  transition: transform 150ms;
+}
+
+.bubble__option-input:checked ~
+.bubble__option-label >
+.bubble__option-dot {
+  transform: scale(1);
+}
+
+.bubble__duration {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-white);
+  opacity: 0.75;
+}
+
+.bubble__price {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-left: auto;
+  margin-right: 0.8rem;
+}
