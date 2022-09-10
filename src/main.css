@@ -9,7 +9,7 @@
 @import "styles/button.css";
 @import "styles/form.css";
 @import "styles/bubble.css";
-@import "styles/images.css";
+@import "styles/gallery.css";
 
 :root {
   --color-pale-violet: hsl(276, 100%, 81%);

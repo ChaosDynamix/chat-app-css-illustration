@@ -3,26 +3,26 @@
   z-index: 50;
   order: 2;
   width: 100%;
-  max-width: 44.8rem;
+  max-width: 28rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   height: auto;
   text-align: center;
 }
 
 .header__title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 500;
   color: var(--color-very-dark-desaturated-violet);
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .header__subtitle {
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 2.8rem;
+  line-height: 1.75rem;
   color: var(--color-dark-grayish-violet);
 }
 

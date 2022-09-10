@@ -1,15 +1,15 @@
-.info {
-  margin-left: 0.8rem;
+.user {
+  margin-left: 0.5rem;
 }
 
-.info__name {
-  font-size: 1.1rem;
+.user__name {
+  font-size: 0.6875rem;
   font-weight: 500;
   color: var(--color-white);
 }
 
-.info__state {
-  font-size: 0.8rem;
+.user__state {
+  font-size: 0.5rem;
   font-weight: 400;
   color: var(--color-white);
   opacity: 0.75;
