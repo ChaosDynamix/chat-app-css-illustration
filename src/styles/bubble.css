@@ -94,7 +94,7 @@
   cursor: pointer;
 }
 
-.bubble__option-input:focus ~
+.bubble__option-input:focus-visible ~
 .bubble__option-label {
   outline: none;
   border: 0.0625rem solid var(--color-white);
