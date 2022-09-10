@@ -1,0 +1,16 @@
+.info {
+  margin-left: 0.8rem;
+}
+
+.info__name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.info__state {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-white);
+  opacity: 0.75;
+}

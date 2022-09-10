@@ -1,0 +1,29 @@
+.button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  transition: background-color 150ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button:focus-visible {
+  background-color: transparent;
+  outline: 0.1rem solid var(--color-white);
+}
+
+.button--arrow {
+  margin-right: 0.2rem;
+}
+
+.button--more {
+  margin-left: auto;
+}
+
+.button--icon {
+  width: 2rem;
+  height: 2rem;
+}

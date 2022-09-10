@@ -1,133 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="icon" type="image/png" href="src/assets/images/favicon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chat App CSS Illustration</title>
-    </head>
 
-    <!-- Page -->
-    <body class="page">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="src/assets/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat App CSS Illustration</title>
+</head>
 
-        <main class="page__container">
+<!-- Page -->
 
-            <!-- Header -->
-            <header class="header">
-                <h1 class="header__title">Simple booking</h1>
-                <p class="header__subtitle">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
-            </header>
+<body class="page">
 
-            <!-- Phone -->
-            <div class="phone">
-                <div class="phone__gap"></div>
-                <div class="phone__screen">
+  <main class="page__container">
 
-                    <!-- App -->
-                    <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="header__title">Simple booking</h1>
+      <p class="header__subtitle">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again
+        all through the chat.</p>
+    </header>
 
-                        <!-- App bar -->
-                        <div class="app__bar">
-                            <!-- App Button -->
-                            <button class="app-button app-button--arrow" aria-label="open mobile menu">
-                                <svg class="app-button__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11 6L9 10L11 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </button>
-                            <!-- App avatar -->
-                            <img class="app-avatar" src="/src/assets/images/avatar.jpg" alt="Profile picture">
-                            <!-- App info -->
-                            <div class="app-info">
-                                <h2 class="app-info__name">Samuel Green</h2>
-                                <p class="app-info__state">Available to walk</p>
-                            </div>
-                            <!-- App button -->
-                            <button class="app-button app-button--more" aria-label="open more menu">
-                                <svg class="app-button__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="9" y="6" width="2" height="2" fill="#EDE5F4"/>
-                                    <rect x="9" y="9" width="2" height="2" fill="#EDE5F4"/>
-                                    <rect x="9" y="12" width="2" height="2" fill="#EDE5F4"/>
-                                </svg>
-                            </button>
-                        </div>
+    <!-- Phone -->
+    <div class="phone">
+      <div class="phone__gap"></div>
+      <div class="phone__screen">
 
-                        <!-- App chat -->
-                        <div class="app__chat">
-                            <!-- App bubble / send -->
-                            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet">
-                                <p class="app-bubble__message app-bubble__message--violet">That sounds great i’d be happy with that.</p>
-                            </div>
-                            <!-- App bubble / send -->
-                            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet app-bubble--last">
-                                <p class="app-bubble__message app-bubble__message--violet">Could you send over some pictures of your dog, please?</p>
-                            </div>
-                            <!-- App images -->
-                            <div class="app-images">
-                                <img class="app-images__image" src="/src/assets/images/dog-image-1.jpg" alt="dog picture 1">
-                                <img class="app-images__image" src="/src/assets/images/dog-image-2.jpg" alt="dog picture 2">
-                                <img class="app-images__image" src="/src/assets/images/dog-image-3.jpg" alt="dog picture 3">
-                            </div>
-                            <!-- App bubble / receive -->
-                            <div class="app-bubble app-bubble--small app-bubble--right app-bubble--white">
-                                <p class="app-bubble__message app-bubble__message--dark-violet">Here are a few pictures. She's a happy girl</p>
-                            </div>
-                            <!-- App bubble / receive -->
-                            <div class="app-bubble app-bubble--small app-bubble--right app-bubble--white app-bubble--last">
-                                <p class="app-bubble__message app-bubble__message--dark-violet">Can you make it?</p>
-                            </div>
-                            <!-- App bubble / send -->
-                            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet">
-                                <p class="app-bubble__message app-bubble__message--violet">She looks so happy! The time we discussed works. How long shall i take her our for?</p>
-                            </div>
-                            <!-- App bubble / proposition -->
-                            <div class="app-bubble app-bubble--large app-bubble--left app-bubble--gradient app-bubble--flex">
-                                <div class="app-bubble__option">
-                                    <input class="app-bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-1" aria-label="30 minute walk proposition">
-                                    <label class="app-bubble__option-label" for="proposition-choice-1">
-                                        <span class="app-bubble__option-dot"></span>
-                                    </label>
-                                </div>
-                                <p class="app-bubble__duration">30 minute walk</p>
-                                <p class="app-bubble__price">$29</p>
-                            </div>
-                            <!-- App bubble / proposition -->
-                            <div class="app-bubble app-bubble--large app-bubble--left app-bubble--gradient app-bubble--flex app-bubble--last">
-                                <div class="app-bubble__option">
-                                    <input class="app-bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-2" aria-label="1 hour walk proposition">
-                                    <label class="app-bubble__option-label" for="proposition-choice-2">
-                                        <span class="app-bubble__option-dot"></span>
-                                    </label>
-                                </div>
-                                <p class="app-bubble__duration">1 hour walk</p>
-                                <p class="app-bubble__price">$49</p>
-                            </div>
-                            <!-- App form -->
-                            <div class="app-form">
-                                <input class="app-form__input" type="text" placeholder="Type a message..." name="message-submit" id="message-submit" aria-label="message">
-                                <button class="app-form__button" aria-label="submit message">
-                                    <svg class="app-form__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8 6L12 10L8 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
+        <!-- App -->
+        <div class="app">
 
-                    </div>
-                </div>
+          <!-- App bar -->
+          <div class="app__bar">
+            <!-- App Button -->
+            <button class="app-button app-button--arrow" aria-label="open mobile menu">
+              <svg class="app-button__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 6L9 10L11 14" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <!-- App avatar -->
+            <img class="app-avatar" src="/src/assets/images/avatar.jpg" alt="Profile picture">
+            <!-- App info -->
+            <div class="app-info">
+              <h2 class="app-info__name">Samuel Green</h2>
+              <p class="app-info__state">Available to walk</p>
             </div>
+            <!-- App button -->
+            <button class="app-button app-button--more" aria-label="open more menu">
+              <svg class="app-button__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="9" y="6" width="2" height="2" fill="#EDE5F4" />
+                <rect x="9" y="9" width="2" height="2" fill="#EDE5F4" />
+                <rect x="9" y="12" width="2" height="2" fill="#EDE5F4" />
+              </svg>
+            </button>
+          </div>
 
-        </main>
+          <!-- App chat -->
+          <div class="app__chat">
+            <!-- App bubble / send -->
+            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet">
+              <p class="app-bubble__message app-bubble__message--violet">That sounds great i’d be happy with that.</p>
+            </div>
+            <!-- App bubble / send -->
+            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet app-bubble--last">
+              <p class="app-bubble__message app-bubble__message--violet">Could you send over some pictures of your dog,
+                please?</p>
+            </div>
+            <!-- App images -->
+            <div class="app-images">
+              <img class="app-images__image" src="/src/assets/images/dog-image-1.jpg" alt="dog picture 1">
+              <img class="app-images__image" src="/src/assets/images/dog-image-2.jpg" alt="dog picture 2">
+              <img class="app-images__image" src="/src/assets/images/dog-image-3.jpg" alt="dog picture 3">
+            </div>
+            <!-- App bubble / receive -->
+            <div class="app-bubble app-bubble--small app-bubble--right app-bubble--white">
+              <p class="app-bubble__message app-bubble__message--dark-violet">Here are a few pictures. She's a happy
+                girl</p>
+            </div>
+            <!-- App bubble / receive -->
+            <div class="app-bubble app-bubble--small app-bubble--right app-bubble--white app-bubble--last">
+              <p class="app-bubble__message app-bubble__message--dark-violet">Can you make it?</p>
+            </div>
+            <!-- App bubble / send -->
+            <div class="app-bubble app-bubble--small app-bubble--left app-bubble--violet">
+              <p class="app-bubble__message app-bubble__message--violet">She looks so happy! The time we discussed
+                works. How long shall i take her our for?</p>
+            </div>
+            <!-- App bubble / proposition -->
+            <div class="app-bubble app-bubble--large app-bubble--left app-bubble--gradient app-bubble--flex">
+              <div class="app-bubble__option">
+                <input class="app-bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-1"
+                  aria-label="30 minute walk proposition">
+                <label class="app-bubble__option-label" for="proposition-choice-1">
+                  <span class="app-bubble__option-dot"></span>
+                </label>
+              </div>
+              <p class="app-bubble__duration">30 minute walk</p>
+              <p class="app-bubble__price">$29</p>
+            </div>
+            <!-- App bubble / proposition -->
+            <div
+              class="app-bubble app-bubble--large app-bubble--left app-bubble--gradient app-bubble--flex app-bubble--last">
+              <div class="app-bubble__option">
+                <input class="app-bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-2"
+                  aria-label="1 hour walk proposition">
+                <label class="app-bubble__option-label" for="proposition-choice-2">
+                  <span class="app-bubble__option-dot"></span>
+                </label>
+              </div>
+              <p class="app-bubble__duration">1 hour walk</p>
+              <p class="app-bubble__price">$49</p>
+            </div>
+            <!-- App form -->
+            <div class="app-form">
+              <input class="app-form__input" type="text" placeholder="Type a message..." name="message-submit"
+                id="message-submit" aria-label="message">
+              <button class="app-form__button" aria-label="submit message">
+                <svg class="app-form__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 6L12 10L8 14" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
 
-        <aside class="page__shapes">
-            <div class="page__shape page__shape--left"></div>
-            <div class="page__shape page__shape--right"></div>
-        </aside>
+        </div>
+      </div>
+    </div>
 
-        <script type="module" src="/src/main.ts"></script>
-    </body>
+  </main>
+
+  <aside class="page__shapes">
+    <div class="page__shape page__shape--left"></div>
+    <div class="page__shape page__shape--right"></div>
+  </aside>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
 
 </html>
