@@ -42,9 +42,11 @@
   transform: translateY(-50%);
   width: 1.5rem;
   height: 1.5rem;
+  padding: 0;
   margin-left: 0.3125rem;
   border-radius: 9999px;
   background-color: var(--color-very-dark-desaturated-violet);
+  color: var(--color-white);
   border: 0.125rem solid var(--color-very-dark-desaturated-violet);
   transition: background-color 150ms;
   cursor: pointer;
