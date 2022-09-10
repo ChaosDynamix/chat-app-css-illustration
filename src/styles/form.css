@@ -36,26 +36,32 @@
 }
 
 .form__button {
+  margin-left: 0.3125rem;
   position: absolute;
   top: 50%;
   right: 0.3125rem;
   transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.5rem;
   height: 1.5rem;
   padding: 0;
-  margin-left: 0.3125rem;
+  border: none;
   border-radius: 9999px;
   background-color: var(--color-very-dark-desaturated-violet);
   color: var(--color-white);
-  border: 0.125rem solid var(--color-very-dark-desaturated-violet);
   transition: background-color 150ms;
   cursor: pointer;
 }
 
+.form__button:hover {
+  background-color: var(--color-light-violet);
+}
+
 .form__button:focus-visible {
-  background-color: var(--color-very-dark-desaturated-violet);
+  background-color: var(--color-light-violet);
   outline: none;
-  border: 0.125rem solid var(--color-very-light-magenta);
 }
 
 .form__icon {
