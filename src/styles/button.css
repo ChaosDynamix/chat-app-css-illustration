@@ -1,9 +1,11 @@
 .button {
-  width: 2rem;
-  height: 2rem;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 9999px;
   transition: background-color 150ms;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .button:hover {
@@ -12,11 +14,11 @@
 
 .button:focus-visible {
   background-color: transparent;
-  outline: 0.1rem solid var(--color-white);
+  outline: 0.0625rem solid var(--color-white);
 }
 
 .button--arrow {
-  margin-right: 0.2rem;
+  margin-right: 0.125rem;
 }
 
 .button--more {
@@ -24,6 +26,6 @@
 }
 
 .button--icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }

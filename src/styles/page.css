@@ -2,8 +2,8 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding-top: 6.4rem;
-  padding-bottom: 6.4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: var(--color-bg);
 }
 
@@ -12,8 +12,8 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .page__shapes {
@@ -28,8 +28,8 @@
 .page__shape {
   position: absolute;
   z-index: 10;
-  width: 50.8rem;
-  height: 50.8rem;
+  width: 31.75rem;
+  height: 31.75rem;
 }
 
 .page__shape--left {
@@ -54,8 +54,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 14.8rem;
-    padding-bottom: 14.8rem;
+    padding-top: 9.25rem;
+    padding-bottom: 9.25rem;
   }
 
   .page__container {
@@ -63,17 +63,17 @@
     flex-direction: row;
     align-items: center;
     max-width: 996px;
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .page__shape--left {
-    transform: translateX(-29.9rem);
-    height: 70rem;
+    transform: translateX(-18.6875rem);
+    height: 43.75rem;
   }
 
   .page__shape--right {
-    transform: translateX(39.6rem);
-    height: 68rem;
+    transform: translateX(24.75rem);
+    height: 42.5rem;
   }
 }
