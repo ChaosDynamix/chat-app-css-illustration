@@ -29,10 +29,7 @@
   <meta property="twitter:image" content="https://john-mirage.github.io/chat-css-illustration/preview.jpg">
 </head>
 
-<!-- Page -->
-
 <body class="page">
-
   <main class="page__container">
     <header class="header">
       <h1 class="header__title">Simple booking</h1>
@@ -64,27 +61,27 @@
             </button>
           </div>
           <div class="app__chat">
-            <div class="bubble bubble--small bubble--left bubble--violet">
+            <div class="bubble bubble--small bubble--left bubble--violet" data-step="1">
               <p class="bubble__message bubble__message--violet">That sounds great i’d be happy with that.</p>
             </div>
-            <div class="bubble bubble--small bubble--left bubble--violet bubble--last">
+            <div class="bubble bubble--small bubble--left bubble--violet bubble--last" data-step="2">
               <p class="bubble__message bubble__message--violet">Could you send over some pictures of your dog, please?</p>
             </div>
             <div class="gallery">
-              <img class="gallery__image" src="/src/images/dog-image-1.jpg" alt="dog picture 1" draggable="false">
-              <img class="gallery__image" src="/src/images/dog-image-2.jpg" alt="dog picture 2" draggable="false">
-              <img class="gallery__image" src="/src/images/dog-image-3.jpg" alt="dog picture 3" draggable="false">
+              <img class="gallery__image" src="/src/images/dog-image-1.jpg" alt="dog picture 1" draggable="false" data-step="3">
+              <img class="gallery__image" src="/src/images/dog-image-2.jpg" alt="dog picture 2" draggable="false" data-step="4">
+              <img class="gallery__image" src="/src/images/dog-image-3.jpg" alt="dog picture 3" draggable="false" data-step="5">
             </div>
-            <div class="bubble bubble--small bubble--right bubble--white">
+            <div class="bubble bubble--small bubble--right bubble--white" data-step="6">
               <p class="bubble__message bubble__message--dark-violet">Here are a few pictures. She's a happy girl</p>
             </div>
-            <div class="bubble bubble--small bubble--right bubble--white bubble--last">
+            <div class="bubble bubble--small bubble--right bubble--white bubble--last" data-step="7">
               <p class="bubble__message bubble__message--dark-violet">Can you make it?</p>
             </div>
-            <div class="bubble bubble--small bubble--left bubble--violet">
+            <div class="bubble bubble--small bubble--left bubble--violet" data-step="8">
               <p class="bubble__message bubble__message--violet">She looks so happy! The time we discussed works. How long shall i take her our for?</p>
             </div>
-            <div class="bubble bubble--large bubble--left bubble--gradient bubble--flex">
+            <div class="bubble bubble--large bubble--left bubble--gradient bubble--flex" data-step="9">
               <div class="bubble__option">
                 <input class="bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-1" aria-label="30 minute walk proposition">
                 <label class="bubble__option-label" for="proposition-choice-1">
@@ -94,7 +91,7 @@
               <p class="bubble__duration">30 minute walk</p>
               <p class="bubble__price">$29</p>
             </div>
-            <div class="bubble bubble--large bubble--left bubble--gradient bubble--flex bubble--last">
+            <div class="bubble bubble--large bubble--left bubble--gradient bubble--flex bubble--last" data-step="10">
               <div class="bubble__option">
                 <input class="bubble__option-input" type="radio" name="proposition-choice" id="proposition-choice-2" aria-label="1 hour walk proposition">
                 <label class="bubble__option-label" for="proposition-choice-2">
@@ -104,7 +101,7 @@
               <p class="bubble__duration">1 hour walk</p>
               <p class="bubble__price">$49</p>
             </div>
-            <div class="form">
+            <div class="form" data-step="11">
               <input class="form__input" type="text" placeholder="Type a message..." name="message-submit" id="message-submit" aria-label="message">
               <button class="form__button" aria-label="submit message">
                 <svg class="form__icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor">

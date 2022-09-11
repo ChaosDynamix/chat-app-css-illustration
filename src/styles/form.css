@@ -22,12 +22,12 @@
   font-size: 0.5625rem;
   font-weight: 500;
   color: var(--color-very-dark-desaturated-violet);
-  border: 0.125rem solid var(--color-white);
+  border: 0.0625rem solid var(--color-white);
 }
 
 .form__input:focus-visible {
   outline: none;
-  border: 0.125rem solid var(--color-very-light-magenta);
+  border: 0.0625rem solid var(--color-very-light-magenta);
 }
 
 .form__input::placeholder {
