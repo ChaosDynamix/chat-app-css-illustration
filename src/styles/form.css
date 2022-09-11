@@ -28,7 +28,7 @@
 
 .form__input:focus-visible {
   outline: none;
-  border: 0.0625rem solid var(--color-very-light-magenta);
+  border: 0.0625rem solid var(--color-transparent-desaturated-dark-violet);
 }
 
 .form__input::placeholder {
@@ -57,11 +57,11 @@
 }
 
 .form__button:hover {
-  background-color: var(--color-light-violet);
+  background-color: var(--color-transparent-desaturated-dark-violet);
 }
 
 .form__button:focus-visible {
-  background-color: var(--color-light-violet);
+  background-color: var(--color-transparent-desaturated-dark-violet);
   outline: none;
 }
 
