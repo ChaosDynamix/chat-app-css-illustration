@@ -4,8 +4,6 @@
   z-index: 50;
   width: 15.5rem;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 4rem;
   background-color: var(--color-white);
   border-radius: 1.75rem;
@@ -34,8 +32,7 @@
 
 @media screen and (min-width: 996px) {
   .phone {
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex: none;
     margin-left: 6.75rem;
     margin-right: 7.75rem;
     margin-bottom: 0;
