@@ -125,10 +125,10 @@
 }
 
 .bubble__price {
+  margin-left: auto;
+  margin-right: 0.5rem;
   font-size: 0.75rem;
   line-height: 0.75rem;
   font-weight: 600;
   color: var(--color-white);
-  margin-left: auto;
-  margin-right: 0.5rem;
 }
